@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Playit.gg is a networking service that enables users to host game servers at home, making them accessible to players worldwide through its custom tunneling software and Anycast Network",
     "homepage": "https://playit.gg/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://github.com/playit-cloud/playit-agent/releases/download/v1.0.0/playit-windows-x86.exe",
-            "hash": "2f3f68eedbc89c48e1ddba061534fe7026d8ed6163ea85f5969a2cbab8fedfde"
+            "url": "https://github.com/playit-cloud/playit-agent/releases/download/v1.0.2/playit-windows-x86.exe",
+            "hash": "21ed1f1c50f9ada86ff3750c48e07dd20b559e481cff7e01e4a42b05042a5052"
         },
         "64bit": {
-            "url": "https://github.com/playit-cloud/playit-agent/releases/download/v1.0.0/playit-windows-x86_64.exe",
-            "hash": "56315dc782370442160f908fa36ad25d5e3661641fecf5902564b9a91a90214e"
+            "url": "https://github.com/playit-cloud/playit-agent/releases/download/v1.0.2/playit-windows-x86_64.exe",
+            "hash": "a6b6c9887f91c6490a1ac028ad2a814eae674fb6601366e2639c4337dffa726d"
         }
     },
     "pre_install": "Rename-Item -Path $dir/$fname -NewName $dir/playit.exe",
