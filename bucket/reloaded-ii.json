@@ -1,5 +1,5 @@
 {
-    "version": "1.30.1",
+    "version": "1.30.2",
     "description": "Universal .NET-powered modding framework for any native x86/x64 game",
     "homepage": "https://reloaded-project.github.io/Reloaded-II/",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         ".NET Desktop Runtime 9.0": "versions/windowsdesktop-runtime-9.0"
     },
-    "url": "https://github.com/Reloaded-Project/Reloaded-II/releases/download/1.30.1/Release.zip",
-    "hash": "1680086693dd4bee0037c18f14fcfd7b19fcb4f388c0838399926a5bf286c548",
+    "url": "https://github.com/Reloaded-Project/Reloaded-II/releases/download/1.30.2/Release.zip",
+    "hash": "62159ba3fa4dc033b4f9fd6f84348e0a472150cca3d3cf97d93ad08e7e16b216",
     "architecture": {
         "32bit": {
             "bin": [
