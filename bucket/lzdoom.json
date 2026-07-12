@@ -1,5 +1,5 @@
 {
-    "version": "4.14.3a",
+    "version": "4.14.4",
     "description": "Legacy source port for Doom, Heretic, Hexen and more (based on GZDoom)",
     "homepage": "https://zdoom.org/",
     "license": "GPL-3.0-or-later",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://github.com/drfrag666/lzdoom/releases/download/l4.14.3a/lzdoom-l4.14.3a-x86.zip",
-            "hash": "08f0eb97ba74b9a2bb5e6f5cd9fa35dceb43dde868a25353faf6a5af81abdca5"
+            "url": "https://github.com/drfrag666/lzdoom/releases/download/l4.14.4/lzdoom-l4.14.4-x86.zip",
+            "hash": "ba388fb08fcd04d559f931370dad5f02bb1af878bb992d53d47889be7f6d2a3a"
         },
         "64bit": {
-            "url": "https://github.com/drfrag666/lzdoom/releases/download/l4.14.3a/lzdoom-l4.14.3a-x64.zip",
-            "hash": "36a02cbeed8d4dafe9bc8eed0c5b982df626d69869da623a6db160b0dec7a945"
+            "url": "https://github.com/drfrag666/lzdoom/releases/download/l4.14.4/lzdoom-l4.14.4-x64.zip",
+            "hash": "972d049a07414c8a61f5c53493b20bdc37c7d2ffe2be1d19b399a41c2e0047a3"
         }
     },
     "pre_install": "New-Item -ItemType Directory -Force -Path $persist_dir\\..\\_doom | Out-Null",
